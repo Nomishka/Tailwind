@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Make Website with Tailwind CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="container min-h-screen max-w-full bg-[url('images/rental.jpg')] bg-center bg-cover mx-auto my-auto">
+            <nav class="flex items-center mb-20 bg-gradient-to-l from-cyan-300 to-blue-100 h-20 border-dash border-blue-600">
+                <img src="images/Logo.png" class="w-40 cursor-pointer mt-5" alt="rent a car logo">
+                <ul class="flex-1 text-center">
+                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-indigo-600 px-2">Home</a></li>
+                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-indigo-600 px-2">About</a></li>
+                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-indigo-600 px-2">Features</a></li>
+                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-indigo-600 px-2">Contact</a></li>
+                </ul>
+                <img src="images/search.png" class="w-10 mr-10 cursor-pointer" alt="search image">
+                <img src="images/cart.jpeg" class="w-8 cursor-pointer mr-10" alt="cart image">
+       
+            </nav>
+            <div class="text-center">
+                <h1 class="text-black font-bold text-3xl">We are renting vehicles for a very reasonable price</h1>
+                <button class="mt-20 text-black font-bold border-4 text-center text-2xl rounded-3xl px-10 py-4 border-red-800 bg-red-500">Rent a Vehicle</button>
+            </div>
+        </div>
+        <footer>
+            <div class="inline-grid grid-rows-1 grid-cols-2 min-w-full">
+                <div class="bg-gradient-to-r from-cyan-300 to-blue-100">
+                    <h4 class="ml-10 text-red-500">24 X 7 Rent a Car</h4>
+                    <h5 class="ml-10">No.02, Circular Road, Enderamulla, Ambalangoda.</h5>
+                    <h5 class="ml-10">Phone: 0778489388</h5>
+                    <h5 class="ml-10">E-mail: rentacar247@gmail.com</h5>
+                </div>
+                <div class="bg-gradient-to-r from-blue-100 to-cyan-300">
+                    <div class="flex">
+                        <img class="w-10 h-10 ml-1" src="images/whatsapp.png" alt="whatsapp logo">
+                        <h5 class="mt-2">+94778489388</h5>
+                    </div>
+                    <div class="flex mb-2">
+                        <img class="w-5 h-5 mr-3 ml-3" src="images/facebook.png" alt="facebook logo">
+                        <h5>24 X 7 Rent a Car</h5>
+                    </div>
+                    <div class="flex">
+                        <img class="w-5 h-5 mr-3 ml-3" src="images/instagram.jpeg" alt="instagram logo">
+                        <h5>24.7.Rent</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
