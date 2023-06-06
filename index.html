@@ -10,22 +10,31 @@
     <body>
         <div class="container min-h-screen max-w-full bg-[url('images/rental.jpg')] bg-center bg-cover mx-auto my-auto">
             <nav class="flex items-center justify-between mb-20 bg-gradient-to-l from-cyan-300 to-blue-100 h-24 border-dashed border-blue-600 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
-                <img src="images/logo.png" class="w-12 sm:w-28 lg:w-32 xl:w-32 two-xl:w-32 cursor-pointer" alt="rent a car logo">
+                <div class="w-12 sm:w-28 lg:w-32 xl:w-48">
+                    <img src="images/logo.png" class="w-full h-full cursor-pointer object-fill" alt="rent a car logo">
+                </div>
                 <ul class="flex flex-wrap items-center justify-center gap-2 sm:gap-10 md:gap-20 lg:gap-24 xl:gap-32">
-                    <li class="list-none inline-block no-underline text-indigo-600"><a href="index.html">Home</a></li>
-                    <li class="list-none inline-block no-underline text-indigo-600"><a href="about.html">About</a></li>
-                    <li class="list-none inline-block no-underline text-indigo-600"><a href="branches.html">Branches</a></li>
-                    <li class="list-none inline-block no-underline text-indigo-600"><a href="vehicles.html">Vehicles</a></li>
+                    <li class="list-none flex justify-between no-underline text-indigo-600"><a href="index.html">Home</a></li>
+                    <li class="list-none flex justify-between no-underline text-indigo-600"><a href="about.html">About</a></li>
+                    <li class="list-none flex justify-between no-underline text-indigo-600"><a href="branches.html">Branches</a></li>
+                    <li class="list-none flex justify-between no-underline text-indigo-600"><a href="vehicles.html">Vehicles</a></li>
                 </ul>
                 <div class="flex">
-                    <img src="images/search.png" class="w-5 sm:w-10 cursor-pointer" alt="search image">
-                    <img src="images/cart.jpeg" class="w-5 sm:w-10 cursor-pointer ml-4" alt="cart image">
+                    <div class="w-5 sm:w-10">
+                        <img src="images/search.png" class="object-fill w-full h-full cursor-pointer" alt="search image">
+                    </div>
+                    <div class="w-5 sm:w-10 cursor-pointer ml-4 mr-4">
+                        <img src="images/cart.jpeg" class="object-fill w-full h-full" alt="cart image">
+                    </div>
                 </div>
             </nav>
             <div class="text-center">
                 <h1 class="text-black font-bold text-3xl">We are renting vehicles for a very reasonable price</h1>
-                <button class="mt-20 text-black font-bold border-4 text-center text-2xl rounded-3xl px-10 py-4 border-red-800 bg-red-500">Rent a Vehicle</button>
+                
             </div>
+            <a href="vehicles.html" class="flex justify-center">
+                <div class="mt-20 text-black font-bold border-4 text-center text-2xl rounded-3xl px-10 py-4 border-red-800 bg-red-500 w-48 sm:w-48 lg:w-64">Rent a Vehicle</div>
+            </a>
         </div>
         <footer class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
             <div class="inline-grid grid-rows-1 grid-cols-2 min-w-full justify-items-center items-center bg-gradient-to-r from-cyan-300 to-blue-100">
